@@ -15,6 +15,7 @@ class CreatePenjualansTable extends Migration
     {
         Schema::create('penjualans', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('id_user');
             $table->integer('id_jadwal');
             $table->timestamps();
         });
