@@ -17,6 +17,7 @@ class CreateListMoviesTable extends Migration
             $table->increments('id');
             $table->string('judul');
             $table->string('sinopsis');
+            $table->timestamps();
         });
     }
 
