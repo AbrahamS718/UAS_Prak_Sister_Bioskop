@@ -18,6 +18,7 @@ class CreateJadwalsTable extends Migration
             $table->integer('id_movies');
             $table->string('kursi');
             $table->string('tanggal');
+            $table->timestamps();
         });
     }
 
